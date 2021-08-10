@@ -41,11 +41,12 @@ const radioCirculo = 4,
     diametroCirculo = radioCirculo *2,
     PI = Math.PI,
     perimetroCirculo = diametroCirculo * PI,
+    
     areaCirculo = (radioCirculo * radioCirculo) * PI;
 
 console.log(`El radio del circulo es: ${radioCirculo} 
 El diametro del circulo es ${diametroCirculo} 
-El perimetro del circulo es ${perimetroCirculo}
-El area del circulo es ${areaCirculo}`)
+El perimetro del circulo es ${perimetroCirculo.toFixed(2)}
+El area del circulo es ${areaCirculo.toFixed(2)}`)
 
 console.groupEnd()
